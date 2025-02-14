@@ -1,0 +1,119 @@
+
+
+@font-face {
+    font-family: 'akrobatbold';
+    src: url('akrobat-bold-webfont.woff2') format('woff2'),
+         url('akrobat-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'akrobatextralight';
+    src: url('akrobat-extralight-webfont.woff2') format('woff2'),
+         url('akrobat-extralight-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}   
+
+@font-face {
+    font-family: gilroybold;
+    src: url(/html/fontawesome/Gilroy-Extrabold.ttf);
+  }
+  @font-face {
+    font-family: joyride;
+    src: url(/html/fontawesome/joyrid.ttf);
+  }
+
+
+.carhudcontainer {
+    position: absolute;
+    width: 400;
+    height: 200;
+    /* border:1px solid red; */
+    bottom: 50px;
+    right: 0px;
+}
+  body{
+    overflow:hidden;
+    background:none;
+    }
+
+.Container {
+    box-sizing: border-box;
+    position: absolute;
+    width: 1920px;
+    height: 1080px;
+    left: 0px;
+    top: 0px;
+}
+
+
+
+.speedometer {
+    position:absolute;
+    left:120px;
+    bottom:-40px;
+    color: white;
+    font-family: akrobatbold;
+    font-size: 130px;
+}
+.kmhtext {
+    position:absolute;
+    color: white;
+    font-family: akrobatbold;
+    font-size:40px;
+    right:15px;
+    bottom:-10
+}
+
+
+.fuelmeter {
+    position:absolute;
+    color: white;
+    font-size:35px;
+    font-family: akrobatbold;
+    right:50px;
+    top:110px
+
+}
+.fuelicon {
+    color:white;
+    position:absolute;
+    right:15px;
+    font-size:25px;
+    top:120px;
+}
+
+
+.geartext {
+    position:absolute;
+    color:white;
+    font-family: akrobatbold;
+    font-size:40;
+    top:60px;
+    right:40px;
+}
+
+.gear {
+    position:absolute;
+    color:white;
+    font-family: akrobatbold;
+    font-size:40px;
+    top: 60px;
+    right:15px;
+}
+
+.line {
+    position: absolute;
+    width: 260px;
+    height: 0px;
+    right:15px;
+    bottom:-20px;
+    border: 3px solid #00f7ff;
+    box-shadow: 0px 4px 20px #FFFFFF;
+}   
+

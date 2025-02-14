@@ -1,0 +1,169 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700');
+* {padding: 0; margin: 0; box-sizing: border-box; font-family: 'Roboto', sans-serif;}
+
+.Container {
+    box-sizing: border-box;
+    position: absolute;
+    width: 1920px;
+    height: 1080px;
+    left: 0px;
+    top: 0px;
+}
+
+body{
+    overflow:hidden;
+    background:none;
+    }
+
+.playerStats{
+	position: absolute;
+	left: 89.0%; /* (18.2% Right Side of Map) | (82.0% Right Side of Screen) | (2.7% Above Map)  */
+	bottom: 70.5%; /* (1.85% Default-Fix for all 16:9 resolutions) | (21.0% Above Map) */
+}
+.numm{
+	position: absolute;
+    left: 16.2%;
+	bottom: 2.85%;
+}
+.binds {
+    font-size: 10px;
+}
+
+.textito {
+    position: absolute;
+    font-family: logo;
+    color: white;
+    left: 5vw;
+    top: 25%;
+}
+  
+.textito h1 {
+    margin-top: 1.8vw;
+    font-size: 1vw;
+}
+
+.keybinds {
+    position: absolute;
+    top: 26%;
+    font-size: 1vw;
+    left: 2vw;
+    text-align: center;
+  }
+
+.circulo {
+  border-radius: 1vw;
+  height: 2.5vw;
+  width: 2.5vw;
+  border: .2vw solid rgb(0, 186, 196);
+  margin-top: .5vw;
+  background-color: rgba(128, 128, 128, 0.582);
+  display: flex; /* or inline-flex */
+  align-items: center; 
+  justify-content: center;
+}
+
+.circulo span {
+  position: fixed;
+  color: white;
+  font-size: 1vw;
+  font-family: logo;
+}
+
+.stat{
+	color: #fff;
+	background: transperent; 
+	width: 200px;
+	height: 29px;
+	border-radius: 10px;
+	position: relative;
+	margin-bottom: 7px;
+
+}
+.stat .icon{
+	height: 29px;
+	width: 29px;
+	background: rgba(0, 0, 0, 0);
+	border-radius: 4px;
+	position: relative;
+	display: inline-block;
+	right: 15px;
+}
+.stat .icon i, .stat .icon img{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.stat .icon img{
+	height: 20px;
+	width: 20px;
+}
+.stat span{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	margin-left: -10px;
+}
+.stat .progress {
+	top: 17.5%;
+	left: 7.7%;
+	width: 87.5%;
+	height: 65%;
+	border-radius: 1.5px 1.5px 1.5px 1.5px;
+	box-sizing: border-box;
+	background: rgba(0, 0, 0, 0);
+	position: absolute;
+}
+.stat .logo img{
+    position: absolute;
+    bottom: -10px;
+    right: 30px;
+}
+
+
+@keyframes light-blue {
+    0%,100% {
+        text-shadow: 0 0 5px var(--main-color);
+    }
+    50% {
+        text-shadow: 0 0 5px var(--main-color), 0 0 20px var(--main-color);
+    }
+    70%,80%,90% {
+        text-shadow: 0 0 5px var(--main-color);
+    }
+}
+
+@keyframes light-white {
+    0%,100% {
+        text-shadow: 0 0 5px var(--color-white);
+    }
+    50% {
+        text-shadow: 0 0 5px var(--color-white), 0 0 20px var(--color-white);
+    }
+    70%,80%,90% {
+        text-shadow: 0 0 5px var(--color-white);
+    }
+}
+:root {
+    --main-color: rgb(0, 251, 255);
+    --main-color-darker: rgb(31, 180, 255);
+    --main-color-gradient: rgba(0, 21, 255, 0.466);
+
+    --server-color-shadow: 0 0 5px var(--main-color), 0 0 20px var(--main-color);
+
+    --border: 10px;
+
+    --color-white: #fff;
+    --shadow-white: 0 0 5px #FFFFFF, 0 0 20px #FFFFFF;
+
+    --color-red: #ff0000;
+    --shadow-red: 0 0 5px #ff0000, 0 0 20px #ff0000;
+    
+    --color-green: #00FF00;
+    --shadow-green: 0 0 5px #00FF00, 0 0 20px #00FF00;
+    
+    --color-blue: #00C2FF;
+    --shadow-blue: 0 0 5px #00C2FF, 0 0 20px #00C2FF;
+}
+
+
